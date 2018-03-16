@@ -1,0 +1,16 @@
+(jbuild_version 1)
+
+(ocamllex (lexer))
+(menhir ((modules (parser))))
+
+;(library
+; ((name Lisp)
+;  (modules (:standard \ main))))
+;
+;(executable
+; ((name main)
+;  (modules (main))
+;  (libraries (Lisp))))
+
+(executable
+ ((name main)))
